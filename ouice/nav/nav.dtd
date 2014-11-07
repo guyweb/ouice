@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT site	 (page+,site-title,site-description,site-keywords,site-link)>
+<!ELEMENT site-title	(#PCDATA)>
+<!ELEMENT site-description	 (#PCDATA)>
+<!ELEMENT site-keywords	 (#PCDATA)>
+<!ELEMENT site-link	 (#PCDATA)>
+<!ELEMENT page	 (title,alt-title,link,description,keywords,thumbnail,body-class,page*)>
+<!ELEMENT title	 (#PCDATA)>
+<!ELEMENT alt-title	 (#PCDATA)>
+<!ELEMENT body-class	 (#PCDATA)>
+<!ELEMENT link	 (#PCDATA)>
+<!ELEMENT description	(#PCDATA)>
+<!ELEMENT keywords	 (#PCDATA)>
+<!ELEMENT thumbnail	 (#PCDATA)>
+
+<!ATTLIST page type CDATA #IMPLIED>
+<!ATTLIST page class CDATA #IMPLIED>
+<!ATTLIST page children CDATA #IMPLIED>

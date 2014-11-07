@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE items SYSTEM "_nav/nav.dtd">
+<site>
+<site-title>OU ICE v4</site-title>
+<site-description></site-description>
+<site-link>index.php</site-link>
+
+<page>
+<title>Home</title>
+<alt-title>OU Online Style</alt-title>
+<link>index.php</link>
+<class>ou-home</class>
+<keywords></keywords>
+<description></description>
+<id>home</id>
+
+	<page>
+	<title>What's new?</title>
+	<link>whats-new.php</link>
+	</page>
+
+	<page>
+	<title>Fonts</title>
+	<link>fonts.php</link>
+	</page>
+
+	<page>
+	<title>Layout</title>
+	<link>layout.php</link>
+
+		<page>
+		<title>Plain and simple</title>
+		<link>layout-plain-and-simple.php</link>
+		</page>
+
+		<page>
+		<title>With site ident</title>
+		<link>layout-site-ident.php</link>
+		</page>
+
+		<page>
+		<title>With creative</title>
+		<link>layout-creative.php</link>
+		</page>
+
+		<page>
+		<title>With carousel</title>
+		<link>layout-carousel.php</link>
+		</page>
+
+		<page>
+		<title>Sections</title>
+		<link>layout-sections.php</link>
+		<class>ou-sections</class>
+		</page>
+
+		<page>
+		<title>Site ident and sections</title>
+		<link>layout-site-ident-and-sections.php</link>
+		<class>ou-sections</class>
+		</page>
+
+		<page>
+		<title>Creative and sections</title>
+		<link>layout-creative-and-sections.php</link>
+		<class>ou-sections</class>
+		</page>
+
+		<page>
+		<title>Carousel and sections</title>
+		<link>layout-carousel-and-sections.php</link>
+		<class>ou-sections</class>
+		</page>
+
+		<page>
+		<title>Single column</title>
+		<link>layout-single-column.php</link>
+		<class>ou-pure</class>
+		</page>
+
+		<page>
+		<title>Two sub columns</title>
+		<link>layout-two-sub-columns.php</link>
+		</page>
+
+		<page>
+		<title>Three sub columns</title>
+		<link>layout-three-sub-columns.php</link>
+		</page>
+
+		<page>
+		<title>Alignment</title>
+		<link>layout-alignment.php</link>
+		</page>
+
+	</page> <!-- end Layout -->
+
+	<page>
+	<title>Navigation</title>
+	<link>navigation.php</link>
+
+		<page>
+		<title>Breadcrumbs</title>
+		<link>navigation-breadcrumbs.php</link>
+		</page>
+
+		<page>
+		<title>Table of contents</title>
+		<link>navigation-table-of-contents.php</link>
+		</page>
+
+		<page>
+		<title>Back to top</title>
+		<link>navigation-back-to-top.php</link>
+		</page>
+
+		<page>
+		<title>Pagination</title>
+		<link>navigation-pagination.php</link>
+		</page>
+
+		<page>
+		<title>Tabs</title>
+		<link>navigation-tabs.php</link>
+		</page>
+
+		<page>
+		<title>Context nav</title>
+		<link>navigation-context-nav.php</link>
+		</page>
+
+		<page>
+		<title>Site map</title>
+		<link>navigation-sitemap.php</link>
+		</page>
+
+		<page>
+		<title>Link styles</title>
+		<link>navigation-link-styles.php</link>
+		</page>
+
+	</page> <!-- end Navigation -->
+
+	<page>
+	<title>Colour</title>
+	<link>colour.php</link>
+	</page>
+
+	<page>
+	<title>Content</title>
+	<link>content.php</link>
+	
+		<page>
+		<title>Headings</title>
+		<link>headings.php</link>
+		</page>
+	
+		<page>
+		<title>Paragraphs</title>
+		<link>paragraphs.php</link>
+		</page>
+	
+		<page>
+		<title>Inline elements</title>
+		<link>inline.php</link>
+		</page>
+	
+		<page>
+		<title>Quotes</title>
+		<link>quotes.php</link>
+		</page>
+	
+		<page>
+		<title>Lists</title>
+		<link>lists.php</link>
+		</page>
+	
+		<page>
+		<title>Tables</title>
+		<link>tables.php</link>
+		</page>
+	
+		<page>
+		<title>Forms</title>
+		<link>forms.php</link>
+		</page>
+	
+		<page>
+		<title>Images</title>
+		<link>images.php</link>
+		</page>
+	
+		<page>
+		<title>Media</title>
+		<link>media.php</link>
+		</page>
+
+		<page>
+		<title>Downloads</title>
+		<link>downloads.php</link>
+		</page>
+
+		<page>
+		<title>Contact info</title>
+		<link>contact-info.php</link>
+		</page>
+	
+		<page>
+		<title>Boxes</title>
+		<link>boxes.php</link>
+		</page>
+	
+		<page>
+		<title>Misc</title>
+		<link>misc.php</link>
+		</page>
+	
+		<page>
+		<title>Drupal specifics</title>
+		<link>drupal.php</link>
+		</page>
+	
+	</page> <!-- / Content -->
+
+	<page>
+	<title>Graphics</title>
+	<link>graphics.php</link>
+
+		<page>
+		<title>Icons</title>
+		<link>icons.php</link>
+		</page>
+
+	</page> <!-- / Graphics -->
+
+	<page type="hidden">
+	<title>Development</title>
+	<link>_development.php</link>
+	</page>
+
+
+</page> <!-- / Home -->
+</site>

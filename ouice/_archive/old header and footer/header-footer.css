@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+
+/*
+--------------------------------------------------------------------------------------
+	OU ICE v4
+	Header & Footer Styles
+	Stephen Turvey - July, 2014
+--------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+-------------------------------------------
+	Header
+-------------------------------------------
+*/
+
+
+
+
+a.int-ouLogo {
+	display:inline-block;
+	margin:1em 0;
+	float:left;
+}
+
+#int-serviceLinks {
+	width:auto;
+	float:right;
+}
+
+#int-serviceLinks ul {
+	float: right;
+	margin: 1.5em 0 0 0;
+	padding: 0;
+	text-align:right;
+}
+
+#int-serviceLinks ul li {
+	white-space: nowrap;
+	text-align: right;
+	padding: 0;
+	vertical-align: middle;
+	display:inline-block;
+}
+
+#int-serviceLinks ul li a {
+	text-decoration:none;
+	color:black;
+	display:inline-block;
+	padding:0 5px;
+}
+
+#int-serviceLinks ul li a:hover {
+	text-decoration:underline;
+}
+
+#int-serviceLinks span {
+	color:#0b55a8;
+}
+
+.int-hide {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(1px,1px,1px,1px);
+}
+
+.int-meta-search {
+	position:relative;
+}
+
+.int-meta-search fieldset {
+	padding: 0;
+	border: 0;
+}
+
+.int-meta-search input {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	box-sizing: border-box;
+	border: 2px solid #e7f0f7;
+	padding: 9px 0.8em;
+	margin: 0 0 0 5px;
+	background: #e7f0f7;
+	font-size: 1em;
+	font-family: "futura-pt", verdana, sans-serif;
+	width: 114px;
+	color:black;
+	-webkit-appearance: none;
+}
+
+.int-meta-search input:focus {
+	width: 164px;
+	border: 2px solid #a6d0ff;
+	border-right: 0;
+	outline: 0;
+	background-color:#a6d0ff;
+}
+
+.int-meta-search input::-webkit-input-placeholder {
+   color: #0b55a8;
+}
+.int-meta-search input:-moz-placeholder { 
+   color: #0b55a8;
+}
+.int-meta-search input::-moz-placeholder {
+   color: #0b55a8;
+}
+.int-meta-search input:-ms-input-placeholder {  
+   color: #0b55a8;
+}
+
+.int-meta-search button {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: transparent;
+    color: #0b55a8;
+	font-size: 18px;
+	border: 0;
+	margin: 0;
+	padding: 10px;
+	cursor:pointer;
+}
+
+.int-meta-search button:hover {
+	color:black;
+}
+
+
+
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+.int-meta-search input:focus {
+	width: 114px;
+}
+
+
+} /* end media query */
+
+
+
+/*
+-------------------------------------------
+	Footer
+-------------------------------------------
+*/
+
+
+
+.int-ouFooter {
+	font-size: 0.875em;
+}
+
+.int-ouFooter {
+	background: #002158;
+	padding: 20px 0;
+	margin:40px 0 0 0;
+}
+
+.int-container {
+	zoom: 1;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 1180px;
+}
+
+.int-ouFooter .header {
+	zoom: 1;
+	position: relative;
+	padding: 0 0 0 0;
+	color: #ffffff;
+	font-size: 0.875em;
+}
+
+.int-ouFooter .header .crest {
+	width: 12%;
+	top: 15px;
+	left: 2.5em;
+	position:absolute;
+}
+
+.int-ouFooter .header .crest img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 89px;
+}
+
+.int-ouFooter .header .contact {
+	margin-left: 15%;
+	width: 82%;
+	float: left;
+	border-bottom: 1px solid #1a3869;
+	padding-top: 8px;
+}
+
+.int-ouFooter .header .contact h3 {
+	float: left;
+	padding-right: 35px;
+	padding-bottom: 12px;
+	color:#fff;
+	margin:10px 0;
+}
+
+.int-ouFooter .nav-footer {
+	margin-bottom:25px;
+}
+
+.int-ouFooter .nav-footer ul {
+	margin-left: 15%;
+	border-bottom: 0;
+}
+
+.nav-footer ul li {
+	width: auto;
+	float: left;
+}
+
+.nav-footer ul li a {
+	display: block;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 1em;
+	padding: 8px 15px;
+	border-top: none;
+	text-decoration:none;
+}
+
+.nav-footer ul li:first-child a {
+	padding-left: 0;
+}
+
+.nav-footer ul li a:hover, 
+.nav-footer ul li a:focus {
+	text-decoration: underline;
+	color: #ffc23d;
+}
+
+.int-ouFooter .small-print {
+	padding-left: 15%;
+	padding-right: 66px;
+	color: #8090ac;
+}
+
+

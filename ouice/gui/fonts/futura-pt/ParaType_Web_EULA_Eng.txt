@@ -1,0 +1,51 @@
+﻿
+PARATYPE WEBFONT EULA
+
+IMPORTANT! Please read the contents of this Licensing Agreement carefully before you install ParaType fonts or software. This agreement defines your rights as a user of the fonts and/or software. If you do not agree to the terms of this Agreement, promptly return the disk package and any other items (including any printed material or other containers) which are part of this product to the place where you obtained them and delete all copies of the product. All rights to distribute enclosed fonts with this EULA belong to ParaType Inc.
+
+LICENSING AGREEMENT
+
+This document is a legal agreement between you, the end user, and ParaType Inc. By obtaining and/or installing delivered software, you agree to the terms and conditions set forth in this Agreement. 
+
+1.	TERMS AND DEFINISHIONS
+
+1.1 “Font Software” (hereinafter “Font”): Any font in any digital format.
+
+1.2 “Basic Web License”: A license that grants to a user of purchased Font the set of rights listed in this Licensing Agreement.
+
+1.3 “Additional Web License”: An extension to the Basic Web License that confers additional rights, such as the right to use the Font in interactive Web applications, the right to modify the Font, etc.
+
+2. GRANT OF LICENSE AND RESTRICTIONS
+
+2.1 Traffic Limitations
+You may use the Font on Web servers that belong to you and that were specified at the time of purchase, with the condition that the total traffic on these Web servers does not exceed the number of pageviews specified in the purchase documents. If you do not have such documents, you may only use the Font on one server, and total traffic on this server must be no greater than 10000 pageviews per month.
+
+2.2 Font Usage
+You may use the Font for texts on your Web sites using the @font-face selector in CSS files under the condition that you place the information about Font copyright and ParaType into a source code of your pages in the same way as shown in the sample HTML/CSS/Javascript files provided with the Font. 
+You may not use the Font with Web font technologies other than @font-face, such as sIFR, Cufon, Typeface.js, etc. Such use requires Additional Web License. 
+You may not use the Font in any interactive Web application that allows users to create or edit text using the Font. Such use requires Additional Web License.
+
+2.3 Backup copying
+You may make one copy of the Font for archival purposes.
+
+2.4 Transfer to third parties 
+You may not use the purchased Font for styling texts on Web sites that belong to other persons or companies, even if the Font is physically placed on your server. Except as expressly provided herein, you may not give, rent or lease or make available the Font or parts of it to third parties. 
+You may not use the Font in sections of your site that are rented or leased by another person or legal entity. Such use requires Additional Web License.
+You may completely transfer your license right to use the Font to another person or legal entity, provided that you stop using the Font, destroy all copies of the Font and send a written notice about the change of licensee to the place of purchase of the Font with registration information about new licensee, including name, address and domain names. 
+
+2.5 Distribution
+You may not distribute the Font or any part of the Font in a commercial or non-commercial manner, whether as a standalone product, bundled with other software or hardware, or embedded into documents.  You must provide necessary protection against unauthorized access to the Font.
+
+2.6 Modifications
+You may not modify, adapt, translate, reverse engineer, decompile, disassemble, alter, or attempt to discover the source code of the Font. Such use requires Additional Web License. Any derivative fonts created under such Additional Web License will be completely owned by ParaType. You may use them in accordance with the restrictions indicated in the current Agreement. You may not distribute fonts, letters and other characters developed by you without a special Distribution Agreement signed by authorized representatives of ParaType.
+
+3. TERMINATION
+This Agreement is valid in all territories and has no expiration date.  However, this Agreement will terminate automatically if you fail to comply with any provision contained herein. In this case you must stop using the Font and destroy all copies of the Font.
+
+4. DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL PARATYPE BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+
+ParaType, Inc.
+www.paratype.com
+Version 1.0
+June 1, 2011

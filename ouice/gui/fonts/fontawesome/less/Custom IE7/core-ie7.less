@@ -1,0 +1,436 @@
+ /* IE7 Support for Font Awesome 4.0.3 - ensure int-icon prefix is retained */
+
+[class^="int-icon-"], [class*=" int-icon-"] {
+	margin-right: .3em;
+} 
+.int-icon-large {
+  font-size: 4/3em;
+  margin-top: -4px;
+  padding-top: 3px;
+  margin-bottom: -4px;
+  padding-bottom: 3px;
+  vertical-align: middle;
+}
+.nav {
+  [class^="int-icon-"],
+  [class*=" int-icon-"] {
+	vertical-align: inherit;
+    margin-top: -4px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+    padding-bottom: 3px;
+    &.int-icon-large {
+      vertical-align: -25%;
+    }
+  }
+}
+
+.nav-pills, .nav-tabs {
+  [class^="int-icon-"],
+  [class*=" int-icon-"] {
+    &.int-icon-large {
+      line-height: .75em;
+      margin-top: -7px;
+      padding-top: 5px;
+      margin-bottom: -5px;
+      padding-bottom: 4px;
+    }
+  }
+}
+
+.btn {
+  [class^="int-icon-"],
+  [class*=" int-icon-"] {
+    &.pull-left, &.pull-right { vertical-align: inherit; }
+    &.int-icon-large {
+      margin-top: -.5em;
+    }
+  }
+}
+
+a [class^="int-icon-"],
+a [class*=" int-icon-"] {
+  cursor: pointer;
+}
+
+.ie7icon(@inner) { *zoom: ~"expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '@{inner}')"; }
+
+.int-icon-glass{ .ie7icon('&#xf000;'); }
+.int-icon-music{ .ie7icon('&#xf001;'); }
+.int-icon-search{ .ie7icon('&#xf002;'); }
+.int-icon-envelope-o{ .ie7icon('&#xf003;'); }
+.int-icon-heart{ .ie7icon('&#xf004;'); }
+.int-icon-star{ .ie7icon('&#xf005;'); }
+.int-icon-star-o{ .ie7icon('&#xf006;'); }
+.int-icon-user{ .ie7icon('&#xf007;'); }
+.int-icon-film{ .ie7icon('&#xf008;'); }
+.int-icon-th-large{ .ie7icon('&#xf009;'); }
+.int-icon-th{ .ie7icon('&#xf00a;'); }
+.int-icon-th-list{ .ie7icon('&#xf00b;'); }
+.int-icon-check{ .ie7icon('&#xf00c;'); }
+.int-icon-times{ .ie7icon('&#xf00d;'); }
+.int-icon-search-plus{ .ie7icon('&#xf00e;'); }
+.int-icon-search-minus{ .ie7icon('&#xf010;'); }
+.int-icon-power-off{ .ie7icon('&#xf011;'); }
+.int-icon-signal{ .ie7icon('&#xf012;'); }
+.int-icon-gear, .int-icon-cog{ .ie7icon('&#xf013;'); }
+.int-icon-trash-o{ .ie7icon('&#xf014;'); }
+.int-icon-home{ .ie7icon('&#xf015;'); }
+.int-icon-file-o{ .ie7icon('&#xf016;'); }
+.int-icon-clock-o{ .ie7icon('&#xf017;'); }
+.int-icon-road{ .ie7icon('&#xf018;'); }
+.int-icon-download{ .ie7icon('&#xf019;'); }
+.int-icon-arrow-circle-o-down{ .ie7icon('&#xf01a;'); }
+.int-icon-arrow-circle-o-up{ .ie7icon('&#xf01b;'); }
+.int-icon-inbox{ .ie7icon('&#xf01c;'); }
+.int-icon-play-circle-o{ .ie7icon('&#xf01d;'); }
+.int-icon-rotate-right, .int-icon-repeat{ .ie7icon('&#xf01e;'); }
+.int-icon-refresh{ .ie7icon('&#xf021;'); }
+.int-icon-list-alt{ .ie7icon('&#xf022;'); }
+.int-icon-lock{ .ie7icon('&#xf023;'); }
+.int-icon-flag{ .ie7icon('&#xf024;'); }
+.int-icon-headphones{ .ie7icon('&#xf025;'); }
+.int-icon-volume-off{ .ie7icon('&#xf026;'); }
+.int-icon-volume-down{ .ie7icon('&#xf027;'); }
+.int-icon-volume-up{ .ie7icon('&#xf028;'); }
+.int-icon-qrcode{ .ie7icon('&#xf029;'); }
+.int-icon-barcode{ .ie7icon('&#xf02a;'); }
+.int-icon-tag{ .ie7icon('&#xf02b;'); }
+.int-icon-tags{ .ie7icon('&#xf02c;'); }
+.int-icon-book{ .ie7icon('&#xf02d;'); }
+.int-icon-bookmark{ .ie7icon('&#xf02e;'); }
+.int-icon-print{ .ie7icon('&#xf02f;'); }
+.int-icon-camera{ .ie7icon('&#xf030;'); }
+.int-icon-font{ .ie7icon('&#xf031;'); }
+.int-icon-bold{ .ie7icon('&#xf032;'); }
+.int-icon-italic{ .ie7icon('&#xf033;'); }
+.int-icon-text-height{ .ie7icon('&#xf034;'); }
+.int-icon-text-width{ .ie7icon('&#xf035;'); }
+.int-icon-align-left{ .ie7icon('&#xf036;'); }
+.int-icon-align-center{ .ie7icon('&#xf037;'); }
+.int-icon-align-right{ .ie7icon('&#xf038;'); }
+.int-icon-align-justify{ .ie7icon('&#xf039;'); }
+.int-icon-list{ .ie7icon('&#xf03a;'); }
+.int-icon-dedent, .int-icon-outdent{ .ie7icon('&#xf03b;'); }
+.int-icon-indent{ .ie7icon('&#xf03c;'); }
+.int-icon-video-camera{ .ie7icon('&#xf03d;'); }
+.int-icon-picture-o{ .ie7icon('&#xf03e;'); }
+.int-icon-pencil{ .ie7icon('&#xf040;'); }
+.int-icon-map-marker{ .ie7icon('&#xf041;'); }
+.int-icon-adjust{ .ie7icon('&#xf042;'); }
+.int-icon-tint{ .ie7icon('&#xf043;'); }
+.int-icon-edit, .int-icon-pencil-square-o{ .ie7icon('&#xf044;'); }
+.int-icon-share-square-o{ .ie7icon('&#xf045;'); }
+.int-icon-check-square-o{ .ie7icon('&#xf046;'); }
+.int-icon-arrows{ .ie7icon('&#xf047;'); }
+.int-icon-step-backward{ .ie7icon('&#xf048;'); }
+.int-icon-fast-backward{ .ie7icon('&#xf049;'); }
+.int-icon-backward{ .ie7icon('&#xf04a;'); }
+.int-icon-play{ .ie7icon('&#xf04b;'); }
+.int-icon-pause{ .ie7icon('&#xf04c;'); }
+.int-icon-stop{ .ie7icon('&#xf04d;'); }
+.int-icon-forward{ .ie7icon('&#xf04e;'); }
+.int-icon-fast-forward{ .ie7icon('&#xf050;'); }
+.int-icon-step-forward{ .ie7icon('&#xf051;'); }
+.int-icon-eject{ .ie7icon('&#xf052;'); }
+.int-icon-chevron-left{ .ie7icon('&#xf053;'); }
+.int-icon-chevron-right{ .ie7icon('&#xf054;'); }
+.int-icon-plus-circle{ .ie7icon('&#xf055;'); }
+.int-icon-minus-circle{ .ie7icon('&#xf056;'); }
+.int-icon-times-circle{ .ie7icon('&#xf057;'); }
+.int-icon-check-circle{ .ie7icon('&#xf058;'); }
+.int-icon-question-circle{ .ie7icon('&#xf059;'); }
+.int-icon-info-circle{ .ie7icon('&#xf05a;'); }
+.int-icon-crosshairs{ .ie7icon('&#xf05b;'); }
+.int-icon-times-circle-o{ .ie7icon('&#xf05c;'); }
+.int-icon-check-circle-o{ .ie7icon('&#xf05d;'); }
+.int-icon-ban{ .ie7icon('&#xf05e;'); }
+.int-icon-arrow-left{ .ie7icon('&#xf060;'); }
+.int-icon-arrow-right{ .ie7icon('&#xf061;'); }
+.int-icon-arrow-up{ .ie7icon('&#xf062;'); }
+.int-icon-arrow-down{ .ie7icon('&#xf063;'); }
+.int-icon-mail-forward, .int-icon-share{ .ie7icon('&#xf064;'); }
+.int-icon-expand{ .ie7icon('&#xf065;'); }
+.int-icon-compress{ .ie7icon('&#xf066;'); }
+.int-icon-plus{ .ie7icon('&#xf067;'); }
+.int-icon-minus{ .ie7icon('&#xf068;'); }
+.int-icon-asterisk{ .ie7icon('&#xf069;'); }
+.int-icon-warning, .int-icon-exclamation-circle{ .ie7icon('&#xf06a;'); }
+.int-icon-gift{ .ie7icon('&#xf06b;'); }
+.int-icon-leaf{ .ie7icon('&#xf06c;'); }
+.int-icon-fire{ .ie7icon('&#xf06d;'); }
+.int-icon-eye{ .ie7icon('&#xf06e;'); }
+.int-icon-eye-slash{ .ie7icon('&#xf070;'); }
+.int-icon-exclamation-triangle{ .ie7icon('&#xf071;'); }
+.int-icon-plane{ .ie7icon('&#xf072;'); }
+.int-icon-calendar{ .ie7icon('&#xf073;'); }
+.int-icon-random{ .ie7icon('&#xf074;'); }
+.int-icon-comment{ .ie7icon('&#xf075;'); }
+.int-icon-magnet{ .ie7icon('&#xf076;'); }
+.int-icon-chevron-up{ .ie7icon('&#xf077;'); }
+.int-icon-chevron-down{ .ie7icon('&#xf078;'); }
+.int-icon-retweet{ .ie7icon('&#xf079;'); }
+.int-icon-shopping-cart{ .ie7icon('&#xf07a;'); }
+.int-icon-folder{ .ie7icon('&#xf07b;'); }
+.int-icon-folder-open{ .ie7icon('&#xf07c;'); }
+.int-icon-arrows-v{ .ie7icon('&#xf07d;'); }
+.int-icon-arrows-h{ .ie7icon('&#xf07e;'); }
+.int-icon-bar-chart-o{ .ie7icon('&#xf080;'); }
+.int-icon-twitter-square{ .ie7icon('&#xf081;'); }
+.int-icon-facebook-square{ .ie7icon('&#xf082;'); }
+.int-icon-camera-retro{ .ie7icon('&#xf083;'); }
+.int-icon-key{ .ie7icon('&#xf084;'); }
+.int-icon-gears, .int-icon-cogs{ .ie7icon('&#xf085;'); }
+.int-icon-comments{ .ie7icon('&#xf086;'); }
+.int-icon-thumbs-o-up{ .ie7icon('&#xf087;'); }
+.int-icon-thumbs-o-down{ .ie7icon('&#xf088;'); }
+.int-icon-star-half{ .ie7icon('&#xf089;'); }
+.int-icon-heart-o{ .ie7icon('&#xf08a;'); }
+.int-icon-sign-out{ .ie7icon('&#xf08b;'); }
+.int-icon-linkedin-square{ .ie7icon('&#xf08c;'); }
+.int-icon-thumb-tack{ .ie7icon('&#xf08d;'); }
+.int-icon-external-link{ .ie7icon('&#xf08e;'); }
+.int-icon-sign-in{ .ie7icon('&#xf090;'); }
+.int-icon-trophy{ .ie7icon('&#xf091;'); }
+.int-icon-github-square{ .ie7icon('&#xf092;'); }
+.int-icon-upload{ .ie7icon('&#xf093;'); }
+.int-icon-lemon-o{ .ie7icon('&#xf094;'); }
+.int-icon-phone{ .ie7icon('&#xf095;'); }
+.int-icon-square-o{ .ie7icon('&#xf096;'); }
+.int-icon-bookmark-o{ .ie7icon('&#xf097;'); }
+.int-icon-phone-square{ .ie7icon('&#xf098;'); }
+.int-icon-twitter{ .ie7icon('&#xf099;'); }
+.int-icon-facebook{ .ie7icon('&#xf09a;'); }
+.int-icon-github{ .ie7icon('&#xf09b;'); }
+.int-icon-unlock{ .ie7icon('&#xf09c;'); }
+.int-icon-credit-card{ .ie7icon('&#xf09d;'); }
+.int-icon-rss{ .ie7icon('&#xf09e;'); }
+.int-icon-hdd-o{ .ie7icon('&#xf0a0;'); }
+.int-icon-bullhorn{ .ie7icon('&#xf0a1;'); }
+.int-icon-bell{ .ie7icon('&#xf0f3;'); }
+.int-icon-certificate{ .ie7icon('&#xf0a3;'); }
+.int-icon-hand-o-right{ .ie7icon('&#xf0a4;'); }
+.int-icon-hand-o-left{ .ie7icon('&#xf0a5;'); }
+.int-icon-hand-o-up{ .ie7icon('&#xf0a6;'); }
+.int-icon-hand-o-down{ .ie7icon('&#xf0a7;'); }
+.int-icon-arrow-circle-left{ .ie7icon('&#xf0a8;'); }
+.int-icon-arrow-circle-right{ .ie7icon('&#xf0a9;'); }
+.int-icon-arrow-circle-up{ .ie7icon('&#xf0aa;'); }
+.int-icon-arrow-circle-down{ .ie7icon('&#xf0ab;'); }
+.int-icon-globe{ .ie7icon('&#xf0ac;'); }
+.int-icon-wrench{ .ie7icon('&#xf0ad;'); }
+.int-icon-tasks{ .ie7icon('&#xf0ae;'); }
+.int-icon-filter{ .ie7icon('&#xf0b0;'); }
+.int-icon-briefcase{ .ie7icon('&#xf0b1;'); }
+.int-icon-arrows-alt{ .ie7icon('&#xf0b2;'); }
+.int-icon-group, .int-icon-users{ .ie7icon('&#xf0c0;'); }
+.int-icon-chain, .int-icon-link{ .ie7icon('&#xf0c1;'); }
+.int-icon-cloud{ .ie7icon('&#xf0c2;'); }
+.int-icon-flask{ .ie7icon('&#xf0c3;'); }
+.int-icon-cut, .int-icon-scissors{ .ie7icon('&#xf0c4;'); }
+.int-icon-copy, .int-icon.int-icon-files-o{ .ie7icon('&#xf0c5;'); }
+.int-icon-paperclip{ .ie7icon('&#xf0c6;'); }
+.int-icon-save, .int-icon-floppy-o{ .ie7icon('&#xf0c7;'); }
+.int-icon-square{ .ie7icon('&#xf0c8;'); }
+.int-icon-bars{ .ie7icon('&#xf0c9;'); }
+.int-icon-list-ul{ .ie7icon('&#xf0ca;'); }
+.int-icon-list-ol{ .ie7icon('&#xf0cb;'); }
+.int-icon-strikethrough{ .ie7icon('&#xf0cc;'); }
+.int-icon-underline{ .ie7icon('&#xf0cd;'); }
+.int-icon-table{ .ie7icon('&#xf0ce;'); }
+.int-icon-magic{ .ie7icon('&#xf0d0;'); }
+.int-icon-truck{ .ie7icon('&#xf0d1;'); }
+.int-icon-pinterest{ .ie7icon('&#xf0d2;'); }
+.int-icon-pinterest-square{ .ie7icon('&#xf0d3;'); }
+.int-icon-google-plus-square{ .ie7icon('&#xf0d4;'); }
+.int-icon-google-plus{ .ie7icon('&#xf0d5;'); }
+.int-icon-money{ .ie7icon('&#xf0d6;'); }
+.int-icon-caret-down{ .ie7icon('&#xf0d7;'); }
+.int-icon-caret-up{ .ie7icon('&#xf0d8;'); }
+.int-icon-caret-left{ .ie7icon('&#xf0d9;'); }
+.int-icon-caret-right{ .ie7icon('&#xf0da;'); }
+.int-icon-columns{ .ie7icon('&#xf0db;'); }
+.int-icon-unsorted, .int-icon-sort { .ie7icon('&#xf0dc;'); }
+.int-icon-sort-down, .int-icon-sort-asc{ .ie7icon('&#xf0dd;'); }
+.int-icon-sort-up, .int-icon-sort-desc{ .ie7icon('&#xf0de;'); }
+.int-icon-envelope{ .ie7icon('&#xf0e0;'); }
+.int-icon-linkedin{ .ie7icon('&#xf0e1;'); }
+.int-icon-undo{ .ie7icon('&#xf0e2;'); }
+.int-icon-legal, .int-icon-gavel{ .ie7icon('&#xf0e3;'); }
+.int-icon-dashboard, .int-icon-tachometer{ .ie7icon('&#xf0e4;'); }
+.int-icon-comment-o{ .ie7icon('&#xf0e5;'); }
+.int-icon-comments-o{ .ie7icon('&#xf0e6;'); }
+.int-icon-flash, .int-icon-bolt{ .ie7icon('&#xf0e7;'); }
+.int-icon-sitemap{ .ie7icon('&#xf0e8;'); }
+.int-icon-umbrella{ .ie7icon('&#xf0e9;'); }
+.int-icon-paste, .int-icon-clipboard{ .ie7icon('&#xf0ea;'); }
+.int-icon-lightbulb-o{ .ie7icon('&#xf0eb;'); }
+.int-icon-exchange{ .ie7icon('&#xf0ec;'); }
+.int-icon-cloud-download{ .ie7icon('&#xf0ed;'); }
+.int-icon-cloud-upload{ .ie7icon('&#xf0ee;'); }
+.int-icon-user-md{ .ie7icon('&#xf0f0;'); }
+.int-icon-stethoscope{ .ie7icon('&#xf0f1;'); }
+.int-icon-suitcase{ .ie7icon('&#xf0f2;'); }
+.int-icon-bell-o{ .ie7icon('&#xf0a2;'); }
+.int-icon-coffee{ .ie7icon('&#xf0f4;'); }
+.int-icon-cutlery{ .ie7icon('&#xf0f5;'); }
+.int-icon-file-text-o{ .ie7icon('&#xf0f6;'); }
+.int-icon-building-o{ .ie7icon('&#xf0f7;'); }
+.int-icon-hospital-o{ .ie7icon('&#xf0f8;'); }
+.int-icon-ambulance{ .ie7icon('&#xf0f9;'); }
+.int-icon-medkit{ .ie7icon('&#xf0fa;'); }
+.int-icon-fighter-jet{ .ie7icon('&#xf0fb;'); }
+.int-icon-beer{ .ie7icon('&#xf0fc;'); }
+.int-icon-h-square{ .ie7icon('&#xf0fd;'); }
+.int-icon-plus-square{ .ie7icon('&#xf0fe;'); }
+.int-icon-angle-double-left{ .ie7icon('&#xf100;'); }
+.int-icon-angle-double-right{ .ie7icon('&#xf101;'); }
+.int-icon-angle-double-up{ .ie7icon('&#xf102;'); }
+.int-icon-angle-double-down{ .ie7icon('&#xf103;'); }
+.int-icon-angle-left{ .ie7icon('&#xf104;'); }
+.int-icon-angle-right{ .ie7icon('&#xf105;'); }
+.int-icon-angle-up{ .ie7icon('&#xf106;'); }
+.int-icon-angle-down{ .ie7icon('&#xf107;'); }
+.int-icon-desktop{ .ie7icon('&#xf108;'); }
+.int-icon-laptop{ .ie7icon('&#xf109;'); }
+.int-icon-tablet{ .ie7icon('&#xf10a;'); }
+.int-icon-mobile-phone, .int-icon-mobile{ .ie7icon('&#xf10b;'); }
+.int-icon-circle-o{ .ie7icon('&#xf10c;'); }
+.int-icon-quote-left{ .ie7icon('&#xf10d;'); }
+.int-icon-quote-right{ .ie7icon('&#xf10e;'); }
+.int-icon-spinner{ .ie7icon('&#xf110;'); }
+.int-icon-circle{ .ie7icon('&#xf111;'); }
+.int-icon-mail-reply, .int-icon-reply{ .ie7icon('&#xf112;'); }
+.int-icon-github-alt{ .ie7icon('&#xf113;'); }
+.int-icon-folder-o{ .ie7icon('&#xf114;'); }
+.int-icon-folder-open-o{ .ie7icon('&#xf115;'); }
+.int-icon-smile-o{ .ie7icon('&#xf118;'); }
+.int-icon-frown-o{ .ie7icon('&#xf119;'); }
+.int-icon-meh-o{ .ie7icon('&#xf11a;'); }
+.int-icon-gamepad{ .ie7icon('&#xf11b;'); }
+.int-icon-keyboard-o{ .ie7icon('&#xf11c;'); }
+.int-icon-flag-o{ .ie7icon('&#xf11d;'); }
+.int-icon-flag-checkered{ .ie7icon('&#xf11e;'); }
+.int-icon-terminal{ .ie7icon('&#xf120;'); }
+.int-icon-code{ .ie7icon('&#xf121;'); }
+.int-icon-reply-all{ .ie7icon('&#xf122;'); }
+.int-icon-mail-reply-all{ .ie7icon('&#xf122;'); }
+.int-icon-star-half-empty, .int-icon-star-half-full, .int-icon-star-half-o{ .ie7icon('&#xf123;'); }
+.int-icon-location-arrow{ .ie7icon('&#xf124;'); }
+.int-icon-crop{ .ie7icon('&#xf125;'); }
+.int-icon-code-fork{ .ie7icon('&#xf126;'); }
+.int-icon-unlink, .int-icon-chain-broken{ .ie7icon('&#xf127;'); }
+.int-icon-question{ .ie7icon('&#xf128;'); }
+.int-icon-info{ .ie7icon('&#xf129;'); }
+.int-icon-exclamation{ .ie7icon('&#xf12a;'); }
+.int-icon-superscript{ .ie7icon('&#xf12b;'); }
+.int-icon-subscript{ .ie7icon('&#xf12c;'); }
+.int-icon-eraser{ .ie7icon('&#xf12d;'); }
+.int-icon-puzzle-piece{ .ie7icon('&#xf12e;'); }
+.int-icon-microphone{ .ie7icon('&#xf130;'); }
+.int-icon-microphone-slash{ .ie7icon('&#xf131;'); }
+.int-icon-shield{ .ie7icon('&#xf132;'); }
+.int-icon-calendar-o{ .ie7icon('&#xf133;'); }
+.int-icon-fire-extinguisher{ .ie7icon('&#xf134;'); }
+.int-icon-rocket{ .ie7icon('&#xf135;'); }
+.int-icon-maxcdn{ .ie7icon('&#xf136;'); }
+.int-icon-chevron-circle-left{ .ie7icon('&#xf137;'); }
+.int-icon-chevron-circle-right{ .ie7icon('&#xf138;'); }
+.int-icon-chevron-circle-up{ .ie7icon('&#xf139;'); }
+.int-icon-chevron-circle-down{ .ie7icon('&#xf13a;'); }
+.int-icon-html5{ .ie7icon('&#xf13b;'); }
+.int-icon-css3{ .ie7icon('&#xf13c;'); }
+.int-icon-anchor{ .ie7icon('&#xf13d;'); }
+.int-icon-unlock-alt{ .ie7icon('&#xf13e;'); }
+.int-icon-bullseye{ .ie7icon('&#xf140;'); }
+.int-icon-ellipsis-h{ .ie7icon('&#xf141;'); }
+.int-icon-ellipsis-v{ .ie7icon('&#xf142;'); }
+.int-icon-rss-square{ .ie7icon('&#xf143;'); }
+.int-icon-play-circle{ .ie7icon('&#xf144;'); }
+.int-icon-ticket{ .ie7icon('&#xf145;'); }
+.int-icon-minus-square{ .ie7icon('&#xf146;'); }
+.int-icon-minus-square-o{ .ie7icon('&#xf147;'); }
+.int-icon-level-up{ .ie7icon('&#xf148;'); }
+.int-icon-level-down{ .ie7icon('&#xf149;'); }
+.int-icon-check-square{ .ie7icon('&#xf14a;'); }
+.int-icon-pencil-square{ .ie7icon('&#xf14b;'); }
+.int-icon-external-link-square{ .ie7icon('&#xf14c;'); }
+.int-icon-share-square{ .ie7icon('&#xf14d;'); }
+.int-icon-compass{ .ie7icon('&#xf14e;'); }
+.int-icon-toggle-down, .int-icon-caret-square-o-down{ .ie7icon('&#xf150;'); }
+.int-icon-toggle-up, .int-icon-caret-square-o-up{ .ie7icon('&#xf151;'); }
+.int-toggle-right, .int-icon-caret-square-o-right{ .ie7icon('&#xf152;'); }
+.int-icon-euro, .int-icon-eur{ .ie7icon('&#xf153;'); }
+.int-icon-gbp{ .ie7icon('&#xf154;'); }
+.int-icon-dollar, .int-icon-usd{ .ie7icon('&#xf155;'); }
+.int-icon-rupee, .int-icon-inr{ .ie7icon('&#xf156;'); }
+.int-icon-cny, .int-icon-rmb, .int-icon-yen, .int-icon-jpy{ .ie7icon('&#xf157;'); }
+.int-icon-ruble, .int-icon-rouble, .int-icon-rub{ .ie7icon('&#xf158;'); }
+.int-icon-won, .int-icon-krw{ .ie7icon('&#xf159;'); }
+.int-icon-bitcoin, .int-icon-btc{ .ie7icon('&#xf15a;'); }
+.int-icon-file{ .ie7icon('&#xf15b;'); }
+.int-icon-file-text{ .ie7icon('&#xf15c;'); }
+.int-icon-sort-alpha-asc{ .ie7icon('&#xf15d;'); }
+.int-icon-sort-alpha-desc{ .ie7icon('&#xf15e;'); }
+.int-icon-sort-amount-asc{ .ie7icon('&#xf160;'); }
+.int-icon-sort-amount-desc{ .ie7icon('&#xf161;'); }
+.int-icon-sort-numeric-asc{ .ie7icon('&#xf162;'); }
+.int-icon-sort-numeric-desc{ .ie7icon('&#xf163;'); }
+.int-icon-thumbs-up{ .ie7icon('&#xf164;'); }
+.int-icon-thumbs-down{ .ie7icon('&#xf165;'); }
+.int-icon-youtube-square{ .ie7icon('&#xf166;'); }
+.int-icon-youtube{ .ie7icon('&#xf167;'); }
+.int-icon-xing{ .ie7icon('&#xf168;'); }
+.int-icon-xing-square{ .ie7icon('&#xf169;'); }
+.int-icon-youtube-play{ .ie7icon('&#xf16a;'); }
+.int-icon-dropbox{ .ie7icon('&#xf16b;'); }
+.int-icon-stack-overflow{ .ie7icon('&#xf16c;'); }
+.int-icon-instagram{ .ie7icon('&#xf16d;'); }
+.int-icon-flickr{ .ie7icon('&#xf16e;'); }
+.int-icon-adn{ .ie7icon('&#xf170;'); }
+.int-icon-bitbucket{ .ie7icon('&#xf171;'); }
+.int-icon-bitbucket-square{ .ie7icon('&#xf172;'); }
+.int-icon-tumblr{ .ie7icon('&#xf173;'); }
+.int-icon-tumblr-square{ .ie7icon('&#xf174;'); }
+.int-icon-long-arrow-down{ .ie7icon('&#xf175;'); }
+.int-icon-long-arrow-up{ .ie7icon('&#xf176;'); }
+.int-icon-long-arrow-left{ .ie7icon('&#xf177;'); }
+.int-icon-long-arrow-right{ .ie7icon('&#xf178;'); }
+.int-icon-apple{ .ie7icon('&#xf179;'); }
+.int-icon-windows{ .ie7icon('&#xf17a;'); }
+.int-icon-android{ .ie7icon('&#xf17b;'); }
+.int-icon-linux{ .ie7icon('&#xf17c;'); }
+.int-icon-dribbble{ .ie7icon('&#xf17d;'); }
+.int-icon-skype{ .ie7icon('&#xf17e;'); }
+.int-icon-foursquare{ .ie7icon('&#xf180;'); }
+.int-icon-trello{ .ie7icon('&#xf181;'); }
+.int-icon-female{ .ie7icon('&#xf182;'); }
+.int-icon-male{ .ie7icon('&#xf183;'); }
+.int-icon-gittip{ .ie7icon('&#xf184;'); }
+.int-icon-sun-o{ .ie7icon('&#xf185;'); }
+.int-icon-moon-o{ .ie7icon('&#xf186;'); }
+.int-icon-archive{ .ie7icon('&#xf187;'); }
+.int-icon-bug{ .ie7icon('&#xf188;'); }
+.int-icon-vk{ .ie7icon('&#xf189;'); }
+.int-icon-weibo{ .ie7icon('&#xf18a;'); }
+.int-icon-renren{ .ie7icon('&#xf18b;'); }
+.int-icon-pagelines{ .ie7icon('&#xf18c;'); }
+.int-icon-stack-exchange{ .ie7icon('&#xf18d;'); }
+.int-icon-arrow-circle-o-right{ .ie7icon('&#xf18e;'); }
+.int-icon-arrow-circle-o-left{ .ie7icon('&#xf190;'); }
+.int-icon-toggle-left, .int-icon-caret-square-o-left{ .ie7icon('&#xf191;'); }
+.int-icon-dot-circle-o{ .ie7icon('&#xf192;'); }
+.int-icon-wheelchair{ .ie7icon('&#xf193;'); }
+.int-icon-vimeo-square{ .ie7icon('&#xf194;'); }
+.int-icon-turkish-lira, .int-icon-try{ .ie7icon('&#xf195;'); }
+.int-icon-plus-square-o{ .ie7icon('&#xf196;'); }
+
+/* Font Awesome replacements of jQuery UI icons */
+ 
+.ui-icon-closethick,[class*="titlebar-close"] {.ie7icon('&#xf00d;'); }
+.ui-icon-triangle-1-e,.ui-menu .ui-icon-carat-1-e {.ie7icon('&#xf054;'); }
+.ui-icon-triangle-1-s {.ie7icon('&#xf078;'); }
+.ui-spinner .ui-icon-triangle-1-s{.ie7icon('&#xf0d7;'); }
+.ui-spinner .ui-icon-triangle-1-n {.ie7icon('&#xf0d8;'); }
+.ui-icon-circle-triangle-w {.ie7icon('&#xf0d9;'); }
+.ui-icon-circle-triangle-e {.ie7icon('&#xf0da;'); }

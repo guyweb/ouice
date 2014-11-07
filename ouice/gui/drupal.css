@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+
+/*
+
+  ___ ___ ___     _ _  
+ |_ _/ __| __|_ _| | | 
+  | | (__| _|\ V /_  _|
+ |___\___|___|\_/  |_| 
+
+
+--------------------------------------------------------------------------------------
+	OU ICE v4 Drupal Specific Styles
+	Stephen Turvey - September, 2014
+--------------------------------------------------------------------------------------
+*/
+
+
+/* more link */
+
+.more-link {
+	text-align:left;
+	font-size:.9em;
+}
+
+.more-link a,
+#ou-content .more-link a {
+	display:inline-block;
+	padding:5px 10px;
+	border:1px solid #ddd;
+	border-radius:5px;
+	text-decoration:none;	
+}
+
+.more-link a:hover {background:#f5f5f5;}
+
+/* admin buttons */
+
+div#tabs-wrapper ul.tabs,
+div#tabs-wrapper ul.tabs li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+div#tabs-wrapper ul.tabs {
+	background-color:#444; 
+	margin:0 0 1.5em 0; 
+	border-top:3px solid #111;
+}
+
+div#tabs-wrapper ul.tabs li {
+	display:inline;	
+}
+
+div#tabs-wrapper ul.tabs li:before {
+	content:'';	
+}
+
+div#tabs-wrapper ul.tabs li a {
+	display:inline-block;
+	padding:.3em .8em;
+	margin:.8em 0 .8em .8em;
+	background-color:#666;
+	font-size:13px;
+	text-transform:uppercase;
+	border-radius:6px;
+	color:#eee;
+	text-decoration:none;
+	background-image: linear-gradient(#777 0%, #777 50%, #666 50%, #666 100%);
+}
+
+div#tabs-wrapper ul.tabs li a:hover {
+	background-color:#888;
+	color:#fff;
+	background-image:none;
+}
+
+div#tabs-wrapper ul.tabs li.active a {
+	font-weight:bold;
+	background-color:#fff;
+	color:#000;
+	background-image: linear-gradient(#fff 0%, #fff 50%, #ddd 50%, #ddd 100%);
+}
+
+.element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	overflow: hidden;
+	height: 1px;
+}
+
+/* events */
+
+#ou-content ul.ou-events {margin:0;}
+
+#ou-content ul.ou-events li {
+	border-bottom: 1px solid #eee;
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 70px;
+	position: relative;
+}
+
+#ou-content ul.ou-events li:before,
+#ou-content ul.ou-events li:after {
+	content:'';
+	display:table;
+}
+
+#ou-content ul.ou-events li:after {
+	clear:both;
+}
+
+
+#ou-content ul.ou-events p.ou-date {
+	background-color: #fff;
+	color:black;
+	float: left;
+	font-family: Arial,Helvetica,sans-serif;
+	margin: 0;
+	width: 50px;
+	position:absolute;
+	left:5px;
+	top:0;
+}
+
+#ou-content ul.ou-events p.ou-date span.ou-datemonth {
+	background-color: #b52a1e;
+	color: #FFFFFF;
+	display: block;
+	font-size: 80%;
+	padding: 1px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius:0 0 4px 4px;
+}
+
+#ou-content ul.ou-events p.ou-date span.ou-dateday {
+	background-color: #FFFFFF;
+	border-radius: 0;
+	border: 2px solid #555;
+	border-bottom: none;
+	display: block;
+	font-size: 1.2em;
+	padding: 4px 0;
+	text-align: center;
+	background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+}
+
+#ou-content ul.ou-events li h3,
+#ou-content ul.ou-events li h2 {
+	margin: 0 0 5px 0;
+}
+
